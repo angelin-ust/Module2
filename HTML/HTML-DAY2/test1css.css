@@ -1,0 +1,69 @@
+body
+{font-family: 'Alkatra', cursive;
+border-top:rebeccapurple;
+border-style: solid;
+border-color: palevioletred;
+border-width: 20px;
+background-color: bisque;
+
+
+
+}
+*{
+    padding: 0;
+    margin: 0;
+}
+
+div{
+    width: 1130px;
+    height: 100px;
+    border: 20px;
+    border-width: 20px;
+    border-color: rgb(128, 255, 0);
+    border-style: dotted;
+    padding: 20px;
+    margin: 10px;
+
+}
+.p1{
+    color: rgb(19, 57, 44);
+    border-style: double;
+    border-radius: 10px;
+    border-color: brown;
+}
+.first-para{
+    background-color: aquamarine;
+    font-weight: bold;
+}
+#p-1{
+    background-color: rgb(212, 255, 0);
+    font-family: 'Lily Script One', cursive;
+
+}
+#p-2{
+    
+    font-family: 'Permanent Marker', cursive
+}
+#p-3{
+    
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: large;
+    color:blue;
+}
+span{
+    color: cornflowerblue;
+}
+/* //parent child like give cheyamm */
+/* #p-1 >span{
+    color: crimson;
+} */
+
+#first span{
+    color: blueviolet;
+}
+#second span{
+    color: brown;
+}
+#third span{
+    color: rgb(255, 0, 200);
+}

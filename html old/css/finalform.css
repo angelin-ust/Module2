@@ -1,0 +1,26 @@
+table
+{
+    border: 2px solid rgba(255, 0, 0, 0.545);
+    padding: 6px;
+    background-color: rgba(224, 127, 127, 0.606);
+}
+
+td{
+    font-size:medium;
+    font-weight: 200;
+    font-weight: bold;
+    color: rgb(255, 4, 88);
+}
+
+th{
+    color: rgb(255, 4, 88);
+    font-weight: bold;
+    font-size:large;
+}
+
+button{
+color: rgb(255, 4, 88);
+background-color: rgba(229, 158, 158, 0.769);
+font-weight: bold;
+}
+.myalign{text-align:right;};

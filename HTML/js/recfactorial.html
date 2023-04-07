@@ -1,0 +1,33 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title> Learning </title>
+<head>
+<body>
+<h2> Welcome<h2>
+<!-- <p id="demo"></p> -->
+<input type="text" id="number" name="number"/><br/>  
+<input type="button" value="submit" onclick="factorial(number)"/>
+<script>
+function calfact(num)
+{
+ if(num>1)
+  {
+   return num*calfact(num-1); 
+  }
+ else
+  {
+   return 1;
+  }
+}
+function factorial()
+{
+    var number=document.getElementById("number").value; 
+    var res = calfact(number);
+    document.write(res);
+}
+
+</script>
+</body>
+</html>  

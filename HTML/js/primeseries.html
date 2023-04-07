@@ -1,0 +1,43 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title> Learning </title>
+<head>
+<body>
+<h2> Welcome<h2>
+<!-- <p id="demo"></p> -->
+<input type="text" id="number" name="number"/><br/>  
+<input type="button" value="submit" onclick="prime(number)"/>
+<script>
+function calprime(num)
+{
+    var i;
+    var j;
+    for(i=1;i<=num;i++){
+       for(j=2;j<=i;j++){
+        if(i%j==0){
+            return 0;
+        }
+        else{
+
+            return i;
+        }
+        
+       }
+    }
+
+}
+function prime()
+{
+    var number=document.getElementById("number").value; 
+    var res = calprime(number);
+
+        document.write(res);
+
+   
+}
+
+</script>
+</body>
+</html>  

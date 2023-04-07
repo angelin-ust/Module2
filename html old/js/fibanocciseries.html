@@ -1,0 +1,30 @@
+<html>  
+<head>  
+<title>  
+Fibonacci Series in JavaScript </title>  
+</head>  
+<body>  
+<script type = "text/javascript">  
+function fibo( num)  
+{  
+// when num is equal to 1, it returns 0 and 1  
+if (num == 1)  
+{  
+return [0, 1];  
+}  
+else  
+{  
+// it continuously calls the recur function till n-1  
+total = recur (num - 1);  
+/* push function add previous two terms and returns store the result into the total variable. */   
+total.push( total[ total.length - 1] + total[ total.length - 2]);  
+return total;  
+}   
+}  
+// get a number from the user  
+const f1 = parseFloat (prompt (' Enter a number to get the sum of Fibonacci Series '));  
+window.alert( "The sum of Fibonacci Series is: " +fibo(f1) );  /* print the sum of series */  
+  
+</script>  
+</body>  
+</html>  

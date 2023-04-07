@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jason</title>
+</head>
+<body>
+   <script>
+    var person=new Object();
+    person.name="john deo";
+    person.age=67;
+    person.city="New york";
+   // console.log(person);
+
+
+    var data={name:"John Doe", age:34,City:"New York"};
+   // console.log(data);
+    console.log(data.name);
+    console.log(data.City);
+    console.log(data.age);
+    data.City="Boston";
+    console.log(data.City);
+
+
+
+    var pets=[
+   {name:"Bruno",type:"dog",age:"90",h:"3"},
+   {name:"Kather",type:"cat",age:"89"},
+   {name:"Bruo",type:"dog",age:"90"},
+   {name:"Bno",type:"dog",age:"9"}
+
+    ];
+    console.log(pets);
+
+    pets[1]["age"]=3;
+    console.log(pets[1]);
+    pets.push({name:"honey",type:"cat",age:"1"})
+    console.log(pets);
+
+
+
+    pets.forEach(function(pet){
+        console.log(pet);
+    });
+
+    // pets.forEach(function(pet)=>{
+    //     console.log(pet);
+    // });
+   </script> 
+</body>
+</html>
